@@ -24,6 +24,10 @@
   height: 400px;
   width: 32%;
 }
+.section-part.P-red{
+  background-color: red;
+  color: white;
+}
 .section-end{
   background-color: #F6F0E0;
   margin-top: 20px;

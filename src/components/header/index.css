@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1500px;
+    /* height: 600px; */
+    background-color: #CCCCCC;
+}
+.img-on-cont{
+    margin: 0 auto;
+    max-width: 1200px;
+    height: 480px;
+    /* background-color: yellow; */
+}
+
+.for-img{
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    background-image: url(../../assets/img/simple-house-01.jpg);  
+    max-width: 1200px;
+    height: 480px;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+nav{
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   width: 100%;
+   /* height: 100px; */
+   /* background-color: blue; */
+}
+.img-block{
+    display: flex;
+    /* justify-content: space-around; */
+   width: 440px;
+   height: 100px;
+   /* background-color: green; */
+}
+.navbar{
+    width: 440px;
+    height: 100px;
+    /* background-color:crimson; */
+}
+.img-house{
+    margin-top: 5px;
+    background-image: url(../../assets/img/simple-house-logo.png);
+    background-size: cover;
+    background-position: 50% 50%;
+   margin-left: 50px;
+   width: 70px;
+   height: 70px;
+   /* background-color: yellow; */
+}
+.topic-house{
+    margin-left: 10px;
+    width: 200px;
+    height: 100px;
+    /* background-color: blueviolet; */
+}
+.topic-house h2{
+    font-size: 2rem;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.topic-house h6{
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: white;
+}
+.menu-bar-cont {
+    position: relative;
+    margin-top: 10px;
+    width: 100%;
+    /* height: 50px; */
+    /* background-color: yellow; */
+}
+
+.menu-bar-cont a::before {
+    position: absolute;
+    content: "";
+    width: 65px;
+    height: 2px;
+    background-color:white;
+    left: auto;
+    bottom: 10px;
+}
+
+.menu-bar-cont a {
+    font-size: 20px;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+
+.menu-bar-cont a:hover {
+    text-decoration-style: double;
+    color: rgb(0, 105, 105);
+    transition: all 0.5s;
+}
+
+ul li {
+    padding: 10px;
+}
+
+.menu-bar-cont ul {
+    padding: 10px;
+    /* margin: 30px; */
+    flex-wrap: wrap;
+    justify-content: space-around;
+    display: flex;
+    list-style: none;
+}

@@ -18,6 +18,7 @@
 }
 
 .for-img{
+    background-attachment: fixed;
     display: flex;
     justify-content: end;
     align-items: flex-end;

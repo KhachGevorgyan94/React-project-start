@@ -1,15 +1,17 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-.container{
+
+.container {
     max-width: 1400px;
     width: 100%;
     margin: 0 auto;
     padding: 0 65px;
 }
-.cover{
+
+.cover {
     height: 100vh;
     background-image: url("Components/assets/images/cover.jpg");
     background-position: center;
@@ -22,33 +24,38 @@
     position: relative;
 }
 
-.cover:before{
+.cover:before {
     position: absolute;
     width: 100%;
     height: 100%;
     left: 0;
     top: 0;
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0, 0, 0, 0.2);
     content: '';
 }
-.header-logo{
+
+.header-logo {
     display: flex;
     /*align-items: flex-start;*/
 }
-.header-logo .white{
+
+.header-logo .white {
     width: 50px;
     height: 50px;
     background-color: white;
 }
-.logo-title{
+
+.logo-title {
     margin-left: 40px;
 }
-.header-main{
+
+.header-main {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.header-logo .without-white{
+
+.header-logo .without-white {
     width: 50px;
     height: 50px;
     border: 3px solid white;
@@ -56,54 +63,65 @@
     bottom: 0;
     left: 20px;
 }
-.logo-img{
+
+.logo-img {
     position: relative;
 }
-.header-logo .logo-title{
+
+.header-logo .logo-title {
     color: white;
 }
-.header-logo .logo-title p{
+
+.header-logo .logo-title p {
     margin-top: 7px;
 }
-.header-menu ul{
+
+.header-menu ul {
     list-style: none;
     display: flex;
     position: relative;
 }
-.header-menu ul li{
+
+.header-menu ul li {
     color: black;
     margin: 0 15px;
-    cursor:pointer;
-
+    cursor: pointer;
 }
-.header-menu ul li a{
+
+.header-menu ul li a {
     color: white;
     font-size: 20px;
 }
 
-.header-menu ul li a.P-header-active{
+.header-menu ul li a.P-header-active {
     color: #98999A;
 }
-.header-menu ul li:hover{
+
+.header-menu ul li:hover {
     border-bottom: 1px solid white;
 }
-.welcome{
+
+.welcome {
     text-align: center;
 }
-.welcome h2{
+
+.welcome h2 {
     margin: 40px;
 }
-.welcome p{
+
+.welcome p {
     width: 44%;
     margin: 0 auto;
     line-height: 30px;
     color: #626364;
 }
-.list-button{
+
+.list-button {
     margin-top: 50px;
     text-align: center;
 }
-.list-button button{
+
+.list-button button {
     padding: 12px 23px;
     background-color: white;
     border: 1px solid #2F956D;
@@ -112,73 +130,86 @@
     margin: 0 10px;
     cursor: pointer;
 }
-.list-button button:hover ,.list-button button.P-active-product{
+
+.list-button button:hover,
+.list-button button.P-active-product {
     background-color: #2F956D;
     color: white;
 }
-.section-list-info{
+
+.section-list-info {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 50px;
 }
-.list{
+
+.list {
     width: 21%;
 }
-.list h2{
+
+.list h2 {
     color: #1A6692;
     font-size: 1.3rem;
     font-weight: 400;
     margin: 15px 0;
 }
-.list p{
+
+.list p {
     font-size: 0.95rem;
     color: #626364;
     line-height: 1.8;
     margin-bottom: 10px;
 }
-.list span{
+
+.list span {
     font-size: 1.25rem;
     color: #2F956D;
     margin-bottom: 70px;
     display: inline-block;
 }
 
-.cover-image{
+.cover-image {
     width: 100%;
     height: 200px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-.section-avocado{
+
+.section-avocado {
     display: flex;
     justify-content: space-between;
 }
-.avocado{
+
+.avocado {
     width: 48%;
     height: 250px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.avocado-title{
+
+.avocado-title {
     display: flex;
     flex-direction: column;
     width: 38%;
 }
-.avocado-title h3{
+
+.avocado-title h3 {
     font-size: 1.3rem;
     font-weight: 400;
     color: #1A6692;
 }
-.avocado-title p{
+
+.avocado-title p {
     color: #626364;
     line-height: 1.8;
     font-size: 17px;
     margin: 15px 0 40px;
 }
-.avocado-title button{
+
+.avocado-title button {
     border: 1px solid #ccc;
     background-color: transparent;
     color: #626364;
@@ -189,22 +220,25 @@
     transition: 0.3s;
     align-self: flex-end;
 }
-.avocado-title button:hover{
+
+.avocado-title button:hover {
     color: white;
     background-color: #98999A;
 }
-footer{
+
+footer {
     margin-top: 50px;
 }
-footer p{
+
+footer p {
     color: #626364;
     line-height: 1.8;
     text-align: center;
     margin-bottom: 40px;
 }
-.footer-end{
+
+.footer-end {
     padding: 120px 0 20px;
     background-color: #ccc;
     text-align: center;
 }
-

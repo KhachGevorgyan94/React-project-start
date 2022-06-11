@@ -1,0 +1,32 @@
+.person {
+    display: flex;
+    width: 500px;
+    background-color: coral;
+}
+
+.person-image {
+    width: 160px;
+    height: 220px;
+    background-color: red;
+    background-image: url("/src/Components/assets/images/image-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.person-information h2 {
+    padding-top: 20px;
+    font-size: 24px;
+}
+
+.person-information h3 {
+    padding-top: 20px;
+    font-size: 17px;
+}
+
+.person-information p {
+    letter-spacing: 1px;
+    font-weight: 500;
+    padding-top: 20px;
+    font-size: 17px;
+}

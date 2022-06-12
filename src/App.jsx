@@ -4,24 +4,24 @@ import Header from "./Components/Header";
 import Section from "./Components/section";
 import AboutUs from "./Components/about-us";
 import Footer from "./Components/Footer";
-import {Route, Switch, Redirect} from 'react-router-dom'
+import { Route, Switch, Redirect } from 'react-router-dom'
 
 function App() {
   return (
     <div className="App">
-      <Header/>
+      <Header />
       <Switch>
         <Route path={'/about-us'} exact={true} >
-          <AboutUs/>
+          <AboutUs />
         </Route>
         <Route path={'/'} exact={true}>
-          <Section/>
+          <Section />
         </Route>
         <Redirect to={'/'}>
-          <Section/>
+          <Section />
         </Redirect>
       </Switch>
-      <Footer/>
+      <Footer />
     </div>
   );
 }

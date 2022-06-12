@@ -1,5 +1,4 @@
 import React from "react";
-import './style.css';
 import CoverInformation from '../cover-information';
 import StuffMain from "./components/stuff-box-main";
 import FixAttachImage from './components/attached-image';

@@ -12,7 +12,9 @@ class Person extends React.Component {
                     sagittis.  Duis ut feugiat  odio, sit amet <br /> accumsan odio.</p>
                 <div className="person-links">
                     <ul>
-                        <li><a href="https://fb.com/">facebook</a></li>
+                         <li><a href="https://fb.com/">facebook</a></li>
+                         <li><a href="https://fb.com/">Twiter</a></li> 
+                         <li><a href="https://fb.com/">Instagram</a></li>
                     </ul>
                 </div>
             </div>

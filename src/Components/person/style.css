@@ -15,18 +15,32 @@
 }
 
 .person-information h2 {
-    padding-top: 20px;
     font-size: 24px;
+    font-weight: 300;
+    color: #09C;
 }
 
 .person-information h3 {
-    padding-top: 20px;
+    padding-top: 10px;
     font-size: 17px;
+    color: #C39;
 }
 
 .person-information p {
+    color: #626364;
+    line-height: 1.8;
     letter-spacing: 1px;
     font-weight: 500;
     padding-top: 20px;
     font-size: 17px;
+}
+ul{
+    padding-top: 20px;
+    display: flex;
+    list-style: none;
+}
+ul li a{
+    padding: 4px;
+    text-decoration: none;
+    color: aqua;
 }

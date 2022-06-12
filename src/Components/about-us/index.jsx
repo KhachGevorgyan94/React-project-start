@@ -18,3 +18,19 @@ class AboutUs extends React.Component {
 }
 
 export default AboutUs
+
+
+    // return (
+    //     <div className="P-about-us">
+    //     {this.state.person.map((item, index) => (
+    //         <div>
+    //             <img style={{ width: '300px', height: "200px", }} src={item.img} alt="" />
+    //             <h2>{item.name}</h2>
+    //             <h3>֏ {item.price}</h3>
+    //             <h3>(hasce){item.adress}</h3>
+    //             {item.isUrgent && <h2 className="urgent">shtap</h2>}
+    //         </div>
+    //     ))}
+    // </div>
+    // );
+

@@ -6,7 +6,7 @@ class StuffBox extends React.Component {
 
         return <div className="G-padding-50">
             <div className="stuff-box">
-                <span className='stuff-img' style={{ backgroundImage: `url('${this.props.data.image}')` }}></span>
+                <span className='stuff-img G-image' style={{ backgroundImage: `url('${this.props.data.image}')` }}></span>
                 <div className="stuff-box-main">
                     <h2>{this.props.data.name}</h2>
                     <h3>{this.props.data.position}</h3>

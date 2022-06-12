@@ -1,0 +1,27 @@
+.menu-box-part {
+    display: flex;
+}
+
+.menu-box-style span {
+    width: 100%;
+    height: 200px;
+}
+
+.menu-box-style p {
+    font-size: 17px;
+    line-height: 30px;
+    margin: 20px 0 35px;
+    text-align: center;
+}
+
+.menu-box-button {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-box-button button {
+    width: 140px;
+    height: 40px;
+    padding: 10px 30px;
+    font-size: 15px;
+}

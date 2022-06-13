@@ -4,8 +4,13 @@ import './stye.css'
 class AboutUs extends React.Component {
 
   render() {
-    return <div className='P-about-us'>
-      <h1> About us</h1>
+    return <div className='P-about-us G-contact'>
+      <h2>About Simple House</h2>
+      <p>
+        This is about page of simple house template.
+        You can modify and use this HTML template for your website. Total 3 HTML pages included in this template. Header image has a parallax effect.
+      </p>
+      
     </div>
   }
 }

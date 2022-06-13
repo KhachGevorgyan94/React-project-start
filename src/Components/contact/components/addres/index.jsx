@@ -9,7 +9,7 @@ class Address extends React.Component {
     render() {
         return <section>
             <div className="container">
-                <div className="fill-addres">
+                <div className="fill-address">
                     <div className="email">
                         <form action="">
                             <label htmlFor="fname">
@@ -25,14 +25,14 @@ class Address extends React.Component {
                             <button>Send</button>
                         </div>
                     </div>
-                    <div className="addres">
+                    <div className="address">
                         <h2>Our Address</h2>
                         <p>180 Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus 10550</p>
-                        <div className="addres-flex">
+                        <div className="address-flex">
                             <span className="G-image call-icon" style={{ background: `url('${callicon}')` }}></span>
                             <p>080-090-0110</p>
                         </div>
-                        <div className="addres-flex">
+                        <div className="address-flex">
                             <span className="G-image mail-icon" style={{ background: `url('${mailicon}')` }}></span>
                             <p>info@company.co</p>
                         </div>

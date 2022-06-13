@@ -6,10 +6,10 @@ class MenuBox extends React.Component {
 
         return <div className="G-padding-33">
             <div className="menu-box-style">
-                <span className="G-image">{this.props.data.image}</span>
+                <span className="G-image menu-icon" style={{ background: `url('${this.props.data.image}')` }}></span>
                 <p>{this.props.data.main}</p>
                 <div className="menu-box-button">
-                    <button>{this.props.data.button}</button>
+                    <button className={`${this.props.data.className}`}>{this.props.data.button}</button>
                 </div>
             </div>
         </div>

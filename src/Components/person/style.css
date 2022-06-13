@@ -5,7 +5,8 @@
 }
 
 .person-image {
-    width: 160px;
+    margin: 20px;
+    width: 400px;
     height: 220px;
     background-color: red;
     background-image: url("/src/Components/assets/images/image-1.jpg");

@@ -4,7 +4,12 @@
     background-color: green;
 }
 
-
+.person-list{
+    margin-top: 50px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
 .P-about-us{
     min-height: 100vh;
 }
@@ -12,7 +17,7 @@
 .P-about-us{
     margin: 0 auto;
     max-width: 1200px;
-    height: 400px;
+    /* height: 400px; */
     background-color: yellowgreen;
 }
 .header-h1{

@@ -5,20 +5,31 @@
 }
 
 .person-list{
-    margin-top: 50px;
+    margin: 0 auto;
+    width: 1200px;
+    background-color: yellow;
     display:flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 .P-about-us{
+    background-color: black;
     min-height: 100vh;
+    /* height: 2000px; */
 }
 
 .P-about-us{
-    margin: 0 auto;
-    max-width: 1200px;
+    width: 100%;
+    /* margin: 0 auto; */
+    /* max-width: 1200px; */
     /* height: 400px; */
     background-color: yellowgreen;
+}
+.header-for-topic{
+    margin: 0 auto;
+    width: 1200px;
+    height: 200px;
+    background-color: red;
 }
 .header-h1{
     text-align: center;

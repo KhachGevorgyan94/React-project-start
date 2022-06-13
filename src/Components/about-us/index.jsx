@@ -35,9 +35,11 @@ class AboutUs extends React.Component {
   }
   render() {
     return <div className='P-about-us'>
+      <div className="header-for-topic">
       <h1 className="header-h1"> About Simple House</h1>
       <p className="header-p"> This is about page of simple house template.  You can modify and use this <br /> HTML template for your website. Total 3 HTML pages included in
         this template. <br /> Header image has a parallax effect.</p>
+        </div>
       <div className="person-list">
        
         {this.state.list.map((item, index) => {
@@ -50,19 +52,4 @@ class AboutUs extends React.Component {
 }
 
 export default AboutUs
-
-
-    // return (
-    //     <div className="P-about-us">
-    //     {this.state.person.map((item, index) => (
-    //         <div>
-    //             <img style={{ width: '300px', height: "200px", }} src={item.img} alt="" />
-    //             <h2>{item.name}</h2>
-    //             <h3>֏ {item.price}</h3>
-    //             <h3>(hasce){item.adress}</h3>
-    //             {item.isUrgent && <h2 className="urgent">shtap</h2>}
-    //         </div>
-    //     ))}
-    // </div>
-    // );
 

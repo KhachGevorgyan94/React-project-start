@@ -1,22 +1,17 @@
 import React from "react";
 import SectionMain from "../section-main-part";
 import avocadoImage from "../assets/images/avocado.jpg";
+import CoverInformation from "../cover-information";
 
-class Section extends React.Component{
+class Section extends React.Component {
 
     render() {
         return <section>
             <div className="container">
-                <div className="welcome">
-                    <h2>Welcome to Simple House</h2>
-                    <p>Total 3 HTML pages are included in this template. Header image has a
-                        parallax effect. You can feel free to download, edit and use this TemplateMo
-                        layout for your commercial or non-commercial websites.
-                    </p>
-                </div>
+                <CoverInformation title='Welcome to Simple House' description='Total 3 HTML pages are included in this template. Header image has a parallax effect. You can feel free to download, edit and use this TemplateMo layout for your commercial or non-commercial websites.' />
                 <SectionMain />
                 <div className="section-avocado">
-                    <div className="avocado" style={{backgroundImage: `url('${avocadoImage}')`}}/>
+                    <div className="avocado" style={{ backgroundImage: `url('${avocadoImage}')` }} />
                     <div className="avocado-title">
                         <h3>Maecenas nulla neque</h3>
                         <p>Phasellus dui velit, feugiat sed elit ut, facilisis aliquam metus. Ut

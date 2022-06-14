@@ -1,3 +1,8 @@
 .G-contact{
     text-align: center;
 }
+.G-input{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}

@@ -1,5 +1,6 @@
 import React from "react";
 import './stye.css'
+// import AboutList from "./about-list";
 
 class AboutUs extends React.Component {
 
@@ -10,7 +11,7 @@ class AboutUs extends React.Component {
         This is about page of simple house template.
         You can modify and use this HTML template for your website. Total 3 HTML pages included in this template. Header image has a parallax effect.
       </p>
-      
+      {/* <AboutList /> */}
     </div>
   }
 }

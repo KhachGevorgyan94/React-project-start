@@ -18,6 +18,7 @@ function App() {
         </Route>
         <Route path={'/contact'} exact={true} >
           <Contact/>
+          
         </Route>
         <Route path={'/'} exact={true}>
           <Section/>
@@ -30,5 +31,7 @@ function App() {
     </div>
   );
 }
+
+
 
 export default App;

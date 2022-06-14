@@ -52,8 +52,16 @@ class AboutList extends React.Component {
   }
 
   render() {
-    return <div className='P-about-us'>
-      <h1> About us</h1>
+    return <div className="G-aboutList">
+      {/* <div></div>
+      <div>
+        <h4></h4>
+        <p></p>
+        <p></p>
+        <div></div>
+      </div> */}
+
+
     </div>
   }
 }

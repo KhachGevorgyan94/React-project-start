@@ -12,15 +12,25 @@ function App() {
     <div className="App">
       <Header />
       <Switch>
+        <Route path={'/'} exact={true} >
+          <Section />
+        </Route>
         <Route path={'/about-us'} exact={true} >
+          <AboutUs />
+        </Route>
+        <Route path={'/'} exact={true} >
           <AboutUs />
         </Route>
         <Route path={'/contact'} exact={true}>
           <Contact />
         </Route>
+
+        {/*-------------------------------*/}
         <Redirect to={'/'}>
           <Section />
         </Redirect>
+        {/*-------------------------------*/}
+
       </Switch>
       <Footer />
     </div>

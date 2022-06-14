@@ -2,8 +2,12 @@ import React from "react";
 import "./style.css";
 
 class StuffBox extends React.Component {
-    render() {
 
+    componentDidMount() {
+        console.log(this.props)
+    }
+
+    render() {
         return <div className="G-padding-50">
             <div className="stuff-box">
                 <span className='stuff-img G-image' style={{ backgroundImage: `url('${this.props.data.image}')` }}></span>

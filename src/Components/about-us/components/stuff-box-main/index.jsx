@@ -46,7 +46,7 @@ class StuffMain extends React.Component {
             <div className="container">
                 <div className="stuff-list">
                     {this.state.list.map((item, index) => {
-                        return <StuffBox data={item} key={index} />
+                         return <StuffBox   data={item} key={index} />
                     })}
                 </div>
             </div>

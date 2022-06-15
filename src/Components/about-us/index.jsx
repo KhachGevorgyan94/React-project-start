@@ -2,6 +2,8 @@ import React from "react";
 import Person from "../person";
 import './style.css'
 import person1 from "../assets/images/image-1.jpg";
+import backparalax from "../assets/images/paralax.jpg";
+import information from "../information";
 
 class AboutUs extends React.Component {
   state = {
@@ -41,11 +43,26 @@ class AboutUs extends React.Component {
         this template. <br /> Header image has a parallax effect.</p>
         </div>
       <div className="person-list">
-       
+        
         {this.state.list.map((item, index) => {
           return  <Person data={item}  key={index}/>
         })}
 
+      </div>
+      <div className="cont-paralax">
+         <div className="bac-img"></div>
+      </div>
+      <div className="information-cont">
+        <div className="information-boxes">
+          <div className="box-blue">
+            <div className="box-image"></div>
+              <h3>Donec sed orci fermentum, convallis lacus id, 
+              tempus elit. Sed eu neque accumsan, porttitor arcu a, 
+              interdum est. Donec in risus eu ante.</h3>
+              <button>Read More</button>
+              
+          </div>
+        </div>
       </div>
     </div>
   }

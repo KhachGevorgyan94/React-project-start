@@ -11,7 +11,7 @@ class Person extends React.Component {
                 <p>{this.props.data.about}</p>
                 <div className="person-links">
                     <ul>
-                         <li><a href="https://fb.com/">facebook</a></li>
+                         <li><a href="https://fb.com/" >facebook</a></li>
                          <li><a href="https://fb.com/">Twiter</a></li> 
                          <li><a href="https://fb.com/">Instagram</a></li>
                     </ul>

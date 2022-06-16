@@ -1,3 +1,96 @@
 .P-about-us{
        min-height: 100vh;
+
 }
+.cover-image-about{
+       width: 200px;
+       height: 250px;
+       background-size: cover;
+       background-position: center;
+       background-repeat: no-repeat;
+     }
+     .about-list{
+       width: 500px;
+       display:flex;
+      padding-bottom: 60px;
+       
+     }
+     .about-list h2{
+       color: #1A6692;
+       font-size: 1.3rem;
+       font-weight: 400;
+       margin: 20px ;
+     }
+     .about-list h4{
+       margin-left:20px;
+      
+     }
+     .about-list p{
+       font-size: 0.95rem;
+       color: #626364;
+       line-height: 1.8;
+       margin:20px;
+     }
+     .about-list-info{
+
+       display: flex;
+       flex-wrap: wrap;
+       text-align: left;
+       justify-content: space-between;
+       margin-top: 50px;
+       
+     }
+     .name-about{
+       width:250px;
+     }
+      .about-restaurant{
+       display: flex;
+       justify-content: space-between;
+       margin-top:50px;
+     }
+     .about-image{
+       width: 48%;
+       height: 250px;
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+     }
+     .about-title{
+       display: flex;
+       flex-direction: column;
+       width: 38%;
+     }
+     .about-title h3{
+       font-size: 1.3rem;
+       font-weight: 400;
+       color: #1A6692;
+     }
+     .about-title p{
+       color: #626364;
+       line-height: 1.8;
+       font-size: 17px;
+       margin: 15px 0 40px;
+     }
+     .clock-image{
+       margin-top:80px;
+       width: 1300px;
+       height: 250px;
+       background-attachment: fixed;
+       background-repeat: no-repeat;
+       background-size: cover;
+     }
+ .text-list{
+       text-align: center;
+       width:200px;
+       display:flex;
+       flex-wrap: wrap;
+       
+ }
+ .about-list-info{
+       width:100%;
+       justify-content: space-between;
+       display: flex;
+      
+ }
+
+   

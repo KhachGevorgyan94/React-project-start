@@ -87,18 +87,19 @@
 .header-menu ul li:hover{
   border-bottom: 1px solid white;
 }
-.welcome{
+ .welcome{
   text-align: center;
+  margin-bottom: 50px;
 }
-.welcome h2{
+  .welcome h2{
   margin: 40px;
 }
-.welcome p{
+.welcome p{ 
   width: 44%;
   margin: 0 auto;
   line-height: 30px;
   color: #626364;
-}
+}   
 .list-button{
   margin-top: 50px;
   text-align: center;

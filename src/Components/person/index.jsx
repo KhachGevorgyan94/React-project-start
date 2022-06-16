@@ -4,7 +4,8 @@ import "./style.css"
 class Person extends React.Component {
     render() {
         return <div className="person">
-            <div className="person-image"></div>
+            <div className="person-image">
+            </div>
             <div className="person-information">
                 <h2>{this.props.data.name}</h2>
                 <h3>{this.props.data.work}</h3>

@@ -1,7 +1,7 @@
 .person {
     display: flex;
     width: 500px;
-    background-color: coral;
+    background-color: white;
 }
 
 .person-image {

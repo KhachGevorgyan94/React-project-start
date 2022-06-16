@@ -7,13 +7,13 @@
 .person-list{
     margin: 0 auto;
     width: 1200px;
-    background-color: yellow;
+    background-color: white;
     display:flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 .P-about-us{
-    background-color: black;
+    background-color: cyan;
     min-height: 100vh;
     /* height: 2000px; */
 }
@@ -23,13 +23,13 @@
     /* margin: 0 auto; */
     /* max-width: 1200px; */
     /* height: 400px; */
-    background-color: yellowgreen;
+    background-color:white;
 }
 .header-for-topic{
     margin: 0 auto;
     width: 1200px;
     height: 200px;
-    background-color: red;
+    background-color: white;
 }
 .header-h1{
     text-align: center;
@@ -41,58 +41,19 @@
     text-align: center;
 }
 .cont-paralax{
+    padding-top: 30px;
     width: 100%;
     height: 250px;
-    background-color: red;
+    background-color: white;
 }
 .bac-img{
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    background-image: url(/src//Components/assets/images/paralax.jpg);
     margin: 0 auto;
     width: 1060px;
-    height: 250px;
+    height: 210px;
     background-color: pink;
 }
 /* =============================================== */
-.information-cont{
-    width: 100%;
-    height: 500px;
-    background-color: green;
-}
-.information-boxes{
-    margin:  0 auto;
-    width: 1050px;
-    height: 350px;
-    background-color: blueviolet;
-}
-.box-blue{
-    text-align: center;
-    width: 300px;
-    height: 350px;
-    background-color: blue;
-}
-.box-image{
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    /* background-size: contain; */
-    background-image: url(/src/Components/assets/images/images.png);
-    width: 100%;
-    height: 150px;
-    /* background-color: brown; */
-}
-.box-image h3{
-    font-size: 1rem;
-    color: #626364;
-    line-height: 1.8;
-}
-button{
-    width: 120px;
-    height: 35px;
-    /* background-color: rgba(0, 0, 255, 0.803); */
-    background-color: red;
-    border: none;
-    color: white;
-}

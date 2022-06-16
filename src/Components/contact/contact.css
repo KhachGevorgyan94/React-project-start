@@ -1,6 +1,13 @@
 .G-contact{
     text-align: center;
 }
+.G-contact{
+    display: flex;
+}
+.P-contact{
+    width: 200px;
+    height: 200px;
+}
 .G-input{
     width: 200px;
     height: 200px;

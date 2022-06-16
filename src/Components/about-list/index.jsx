@@ -7,7 +7,7 @@ import about3 from "../assets/images/about-03.jpg";
 import about4 from "../assets/images/about-04.jpg";
 
 class AboutList extends React.Component {
-  style={
+  state ={
     aboutList:[
       {
         image:about1,
@@ -53,13 +53,13 @@ class AboutList extends React.Component {
 
   render() {
     return <div className="G-aboutList">
-      {/* <div></div>
+      <div></div>
       <div>
         <h4></h4>
         <p></p>
         <p></p>
         <div></div>
-      </div> */}
+      </div>
 
 
     </div>

@@ -1,14 +1,13 @@
 import React from "react";
 import './stye.css'
-import AboutList from "../about-list";
 import about1 from "../assets/images/about-01.jpg";
 import about2 from "../assets/images/about-02.jpg";
 import about3 from "../assets/images/about-03.jpg";
 import about4 from "../assets/images/about-04.jpg";
 
 class AboutList extends React.Component {
-  state ={
-    aboutList:[
+  state = {
+    list:[
       {
         image:about1,
         fulName:'Jennifer Soft',
@@ -44,10 +43,6 @@ class AboutList extends React.Component {
         instagram:'/z',
         youtube:'/a'
       }
-
-
-
-
     ],
   }
 

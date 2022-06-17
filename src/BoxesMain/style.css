@@ -1,0 +1,38 @@
+.menu-box-part{
+    text-align: center;
+    width: 1050px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.button-red{
+    cursor: pointer;
+    background-color: rgb(207, 48, 48);
+    border: none;
+    color: white;
+}
+.button-red:hover{
+    transition: all .3s;
+    background-color:red;
+}
+.button-green{
+    cursor: pointer;
+    background-color:greenyellow;
+    border: none;
+    color: white;
+}
+.button-green:hover{
+    transition: all .3s;
+    background-color:green;
+}
+.button-blue{
+    background-color: rgb(47, 47, 196);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.button-blue:hover{
+    background-color: blue;
+    transition: all 0.3s;
+}

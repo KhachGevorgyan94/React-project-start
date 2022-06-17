@@ -5,7 +5,6 @@ import menuicon1 from '../Components/assets/images/menuicon1.png';
 import menuicon2 from '../Components/assets/images/menuicon2.png';
 import menuicon3 from '../Components/assets/images/menuicon3.jpg';
 
-
 class BoxesMain extends React.Component {
     state = {
       list: [
@@ -33,7 +32,7 @@ class BoxesMain extends React.Component {
 
     render() {
       return <section>
-          <div className="container">
+          <div className="cont">
               <div className="menu-box-part">
                   {this.state.list.map((item, index) => {
                       return <Boxes data={item} key={index} />

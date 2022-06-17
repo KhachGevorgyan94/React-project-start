@@ -53,7 +53,6 @@ class AboutUs extends React.Component {
       <div className="cont-paralax">
          <div className="bac-img" style={{ backgroundImage: `url('${bacimg}')`}} ></div>
       </div>
-      <Boxes/>
       <BoxesMain/>
     </div>
   }

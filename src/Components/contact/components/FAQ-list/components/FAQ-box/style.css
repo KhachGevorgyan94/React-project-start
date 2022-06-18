@@ -1,0 +1,10 @@
+.P-faq-body{
+    transition: .3s;
+    overflow: hidden;
+    overflow-y: auto;
+    max-height: 0;
+}
+.P-open-faq .P-faq-body{
+    max-height: 500px;
+}
+

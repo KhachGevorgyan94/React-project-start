@@ -3,6 +3,7 @@ import CoverInformation from "../cover-information";
 import Address from '../contact/components/addres';
 import MapLocation from "./components/map";
 import DivClick from "./components/input-boxes-4/div-create";
+import FAQList from "./components/FAQ-list";
 
 class Contact extends React.Component {
     render() {
@@ -11,7 +12,7 @@ class Contact extends React.Component {
             <Address />
             <MapLocation />
             <CoverInformation title='FAQs' description='This section comes with Accordion tabs for different questions and answers about Simple House HTML CSS template. Thank you. #666' />
-            <DivClick />
+            <FAQList/>
         </>
     }
 }

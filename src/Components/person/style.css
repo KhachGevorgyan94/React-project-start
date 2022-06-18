@@ -9,11 +9,14 @@
     width: 400px;
     height: 220px;
     background-color: red;
-    background-image: url("/src/Components/assets/images/image-1.jpg");
+    display: flex;
+    /* background-image: url("/src/Components/assets/images/image-1.jpg"); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
 
 .person-information h2 {
     padding-top: 15px;

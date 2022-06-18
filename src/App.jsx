@@ -4,7 +4,8 @@ import Header from "./Components/Header";
 import Section from "./Components/section";
 import AboutUs from "./Components/about-us";
 import Footer from "./Components/Footer";
-import {Route, Switch, Redirect} from 'react-router-dom'
+import Contact from "./Components/contact-us";
+import {Route, Switch, Redirect} from 'react-router-dom';
 
 function App() {
   return (
@@ -14,13 +15,22 @@ function App() {
         <Route path={'/about-us'} exact={true} >
           <AboutUs/>
         </Route>
+        
         <Route path={'/'} exact={true}>
           <Section/>
         </Route>
-        <Redirect to={'/'}>
+
+        <Route path={'/contact'} exact={true} >      
+            <Contact/>            
+         </Route>
+        {/* <Redirect to={'/'}>
           <Section/>
-        </Redirect>
+        </Redirect> */}
+        
       </Switch>
+
+     
+      
       <Footer/>
     </div>
   );

@@ -57,3 +57,40 @@
     background-color: pink;
 }
 /* =============================================== */
+.cont-history{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin:  0 auto;
+    width: 1050px;
+    height: 600px;
+    background-color: whitesmoke;
+}
+.footer-img{
+    width: 440px;
+    height: 300px;
+    background-color: red;
+}
+.footer-topic{
+    width: 440px;
+     height: 300px;
+     /* background-color: green;   */
+}
+.footer-img img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 440px;
+    height: 300px;
+}
+.footer-topic h3{
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #1A6692;
+}
+.footer-topic p{
+    padding-top: 10px;
+    color: #626364;
+    line-height: 1.8;
+}

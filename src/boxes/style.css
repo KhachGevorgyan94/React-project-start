@@ -2,13 +2,13 @@
     margin: 0 auto;
     height: 500px;
     width: 281px;
-    background-color: red;
+    background-color: aquamarine;
 }
 
 .box-topic{
     width: 100%;
     height: 209px;
-    background-color: blue;
+    /* background-color: blue; */
 }
 .bg{
     width:100%;
@@ -18,7 +18,7 @@
 .for-button{
     width: 100%;
     /* height: 100; */
-    background-color: yellow;
+    /* background-color: yellow; */
 }
 .for-button button{
     width: 110px;

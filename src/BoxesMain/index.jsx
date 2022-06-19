@@ -1,9 +1,9 @@
 import React from "react";
 import "./style.css"
 import Boxes from "../boxes";
-import menuicon1 from '../Components/assets/images/menuicon1.png';
-import menuicon2 from '../Components/assets/images/menuicon2.png';
-import menuicon3 from '../Components/assets/images/menuicon3.jpg';
+import menuicon1 from '..//Components/assets/images/menuicon1.png';
+import menuicon2 from '..//Components/assets/images/menuicon2.png';
+import menuicon3 from '..//Components/assets/images/menuicon3.jpg';
 
 class BoxesMain extends React.Component {
     state = {

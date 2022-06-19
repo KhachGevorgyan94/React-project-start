@@ -28,7 +28,7 @@ class AboutUs extends React.Component {
         name: "Florence Nelson",
         work: "Kitchen Manager",
         about: "Aenean sapien sem, ultricies sed vulputate et, auctor vel mauris. Integer sit amet diam eget est facilisis lacinia vitae.",
-        image: "https://templatemo.com/templates/templatemo_539_simple_house/img/about-03z.jpg",
+        image: "https://templatemo.com/templates/templatemo_539_simple_house/img/about-03.jpg",
       },
       {
         name: "Valentina Martin",

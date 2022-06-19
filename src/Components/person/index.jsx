@@ -5,10 +5,11 @@ class Person extends React.Component {
     render() {
         return <div className="person">
              <div className="person-image">
+             <span className="box-img2" style={{ backgroundImage: `url('${this.props.data.image}')`}}></span>
              </div>
              <div className="person-image2"></div>
             <div className="person-information">
-                 {/* <img style={{ width: '200px', height: "220px", }} src={this.props.data.image} alt="" /> */}
+                
                 <h2>{this.props.data.name}</h2>
                 <h3>{this.props.data.work}</h3>
                 <p>{this.props.data.about}</p>

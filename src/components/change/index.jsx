@@ -15,7 +15,11 @@ class ChangeEvent extends React.Component {
       price: '',
       model: ''
     },
-    firstName: ""
+    firstName: "",
+
+    rangeValue: 0,
+    colorValue: '',
+    isCheck: false
   }
 
 
@@ -73,13 +77,30 @@ class ChangeEvent extends React.Component {
       }
     })
   }
+  onChangeRange = (e) => {
+    this.setState({rangeValue: e.target.value}, () => {
+      console.log(this.state.rangeValue, 'rangeValue')
+    })
+  }
+  onChangeColor = (e) => {
+    console.log(e.target.value)
+    this.setState({colorValue: e.target.value})
 
+  }
+  onCHangeCheck = (e) => {
+    this.setState({isCheck: !this.state.isCheck})
+
+  }
+
+  uploadFile = (e) => {
+    console.log(e.target.files)
+  }
 
   render() {
-    return <div>
+    return <div style={{backgroundColor: this.state.colorValue}}>
       <input name={'firstName'}
              value={this.state.userFormDatA.age}
-             onChange={(e)=>this.onChangeInputText(e,'fistName')} type="text"/>
+             onChange={(e) => this.onChangeInputText(e, 'fistName')} type="text"/>
       <input name={'firstName'}
              value={this.state.userFormDatA.position}
              onChange={this.onChangePosition} type="text"/>
@@ -89,11 +110,25 @@ class ChangeEvent extends React.Component {
       <input name={'firstName'}
              value={this.state.userFormDatA.price}
              onChange={this.onChangePosition2} type="text"/>
-      {/*<input onChange={} type="range"/>*/}
-      {/*<input onChange={} type="color"/>*/}
-      {/*<input onChange={} type="checkbox"/>*/}
-      {/*<input onChange={} type="radio"/>*/}
-      {/*<input onChange={} type="file"/>*/}
+
+      <hr/>
+
+
+      <input onChange={this.onChangeRange}
+             className='style'
+             type="range"
+             value={this.state.rangeValue}
+             min={0}
+             max={255}
+      />
+      <p>{this.state.rangeValue}</p>
+      <input onChange={this.onChangeColor} type="color" value={this.state.colorValue}/>
+      <div>Lorem ipsum dolor sit amet.</div>
+
+
+      <input checked={this.state.isCheck} onChange={this.onCHangeCheck} type="checkbox"/>
+      <input type="radio" onChange={this.onCHangeCheck}/>
+      <input multiple={true}  onChange={this.uploadFile} type="file"/>
 
     </div>
   }

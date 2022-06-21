@@ -41,3 +41,30 @@
 .P-active{
   color: red;
 }
+
+.forma input{
+  margin:20px;
+  width:200px;
+  height: 30px;
+}
+.forma button{
+  margin:20px;
+  width: 70px;
+  height: 30px;
+  background-color: green;
+  color:aliceblue;
+  border-color: green;
+}
+
+
+
+.P-h2{
+  color:green;
+  font-style: bold;
+  margin:20px;
+}
+
+.P-red{
+  color:red;
+  margin:20px;
+}

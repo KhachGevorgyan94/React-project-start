@@ -1,12 +1,29 @@
-import React from "react";
+import React, {useEffect} from "react";
 import {useState} from "react";
 import './App.css';
 import Box from "./components/box";
+import useSettings from "./hook/useSettings";
+
+
+
+import {useHistory, useParams, useLocation, } from "react-router-dom";
+
 
 
 const App = () => {
 
+  // const history = useHistory()
+  const params = useParams()
+  const location = useLocation()
+
+  useEffect(()=>{
+
+  }, [])
   const [inputValue, setInputValue] = useState('')
+
+  const {token, setToken} = useSettings()
+
+  const [toggle, setToggle] = useState(false)
   const [formData, setFormData] = useState({
     fistName: '',
     lastName: ''
@@ -106,6 +123,9 @@ const App = () => {
 
   const [arr, setArr] = useState([])
 
+
+
+
   const changeInput = (e) => {
     // setInputValue(e.target.value)
     // vall = e.target.value
@@ -131,26 +151,32 @@ const App = () => {
 
   }
 
+const  getToken = (token)=>{
+  console.log(token)
+  setToken(token)
+  console.log(location)
+  console.log(params)
+}
+
 
   return <div>
-    hello word
-    <input type="text" name={'fistName'} value={formData.fistName} onChange={changeInput}/>
-    <input type="text" name={'lastName'} value={formData.lastName} onChange={changeInput}/>
-    {/*<input type="text" value={value} onChange={onChangeInput}/>*/}
+    {/*hello word*/}
+    {/*<input type="text" name={'fistName'} value={formData.fistName} onChange={changeInput}/>*/}
+    {/*<input type="text" name={'lastName'} value={formData.lastName} onChange={changeInput}/>*/}
+    {/*/!*<input type="text" value={value} onChange={onChangeInput}/>*!/*/}
 
 
-    <button onClick={() => console.log(formData)}>click</button>
-    <p>{inputValue}</p>
-    <h1>{value1}</h1>
-    <h1>{value2}</h1>
+    {/*<button onClick={() => console.log(formData)}>click</button>*/}
+    {/*<p>{inputValue}</p>*/}
 
-    {/*<Box title={'title 1'} description={'description 1'} />*/}
-    {/*<Box title={'title 2'} description={'description 2'} />*/}
-    {/*<Box title={'title 3'} description={'description 3'} />*/}
+    {/*/!*<Box title={'title 1'} description={'description 1'} />*!/*/}
+    {/*/!*<Box title={'title 2'} description={'description 2'} />*!/*/}
+    {/*/!*<Box title={'title 3'} description={'description 3'} />*!/*/}
 
-
-    <Box title={'title 4'} description={' description 4'}/>
-
+    <button onClick={()=>setToken('aklsdhflkasdfjkjasdjgflewkrjlkfgjhlskdfg;sdjkfhg')}> click me</button>
+    <button onClick={() => setToggle(!toggle)}>Click me</button>
+    <h1>Token - {token}</h1>
+    {toggle ? <Box get={getToken} title={'title 4'} description={' description 4'}/> : null}
 
   </div>
 }

@@ -11,251 +11,58 @@
     margin: 0 auto;
     padding: 0 65px;
 }
-
-.G-padding-50 {
-    width: 50%;
-    padding: 0 15px;
-}
-
-.G-padding-33 {
-    width: 33.3%;
-    padding: 0 15px;
-}
-
-.G-image {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.cover {
-    height: 100vh;
-    background-image: url("Components/assets/images/cover.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    display: flex;
-    align-items: flex-end;
-    padding: 30px 0;
-    position: relative;
-}
-
-.cover:before {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    background-color: rgba(0, 0, 0, 0.2);
-    content: '';
-}
-
-.header-logo {
-    display: flex;
-    /*align-items: flex-start;*/
-}
-
-.header-logo .white {
-    width: 50px;
-    height: 50px;
-    background-color: white;
-}
-
-.logo-title {
-    margin-left: 40px;
-}
-
-.header-main {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.header-logo .without-white {
-    width: 50px;
-    height: 50px;
-    border: 3px solid white;
-    position: absolute;
-    bottom: 0;
-    left: 20px;
-}
-
-.logo-img {
-    position: relative;
-}
-
-.header-logo .logo-title {
-    color: white;
-}
-
-.header-logo .logo-title p {
-    margin-top: 7px;
-}
-
-.header-menu ul {
+ul{
     list-style: none;
     display: flex;
-    position: relative;
-}
-
-.header-menu ul li {
-    color: black;
-    margin: 0 15px;
-    cursor: pointer;
-}
-
-.header-menu ul li a {
-    color: white;
-    font-size: 20px;
-}
-
-.header-menu ul li a.P-header-active {
-    color: #98999A;
-}
-
-.header-menu ul li:hover {
-    border-bottom: 1px solid white;
-}
-
-.welcome {
-    text-align: center;
-}
-
-.welcome h2 {
-    margin: 40px;
-}
-
-.welcome p {
-    width: 44%;
-    margin: 0 auto;
-    line-height: 30px;
-    color: #626364;
-}
-
-.list-button {
-    margin-top: 50px;
-    text-align: center;
-}
-
-.list-button button {
-    padding: 12px 23px;
-    background-color: white;
-    border: 1px solid #2F956D;
-    color: #2F956D;
-    font-size: 20px;
-    margin: 0 10px;
-    cursor: pointer;
-}
-
-.list-button button:hover,
-.list-button button.P-active-product {
-    background-color: #2F956D;
-    color: white;
-}
-
-.section-list-info {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-top: 50px;
-}
-
-.list {
-    width: 21%;
-}
-
-.list h2 {
-    color: #1A6692;
-    font-size: 1.3rem;
-    font-weight: 400;
-    margin: 15px 0;
-}
-
-.list p {
-    font-size: 0.95rem;
-    color: #626364;
-    line-height: 1.8;
-    margin-bottom: 10px;
-}
-
-.list span {
-    font-size: 1.25rem;
-    color: #2F956D;
-    margin-bottom: 70px;
-    display: inline-block;
-}
-
-.cover-image {
     width: 100%;
-    height: 200px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    justify-content: space-around;
+    background-color: #f2f2f2;
 }
-
-.section-avocado {
+ul li{
+    padding: 5px;
+}
+ul li a{
+    text-decoration: none;
+    padding: 20px 90px;
+    border-radius: 4px;
+    display: inline-block;
+    color: #b3b3b3;
+    transition: 0.3s;
+}
+ul li a:hover{
+    color: black;
+}
+.title{
+    color: red;
+    background-color: white;
+}
+.mainsection{
+    margin-top: 50px;
     display: flex;
     justify-content: space-between;
 }
-
-.avocado {
-    width: 48%;
-    height: 250px;
+.cover-image{
+    width: 49%;
+    height: 450px;
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
 }
-
-.avocado-title {
+.text-block{
+    margin-top: 30px;
     display: flex;
-    flex-direction: column;
-    width: 38%;
 }
-
-.avocado-title h3 {
-    font-size: 1.3rem;
-    font-weight: 400;
-    color: #1A6692;
+.text-block h3{
+    margin-top: 40px;
 }
-
-.avocado-title p {
-    color: #626364;
-    line-height: 1.8;
-    font-size: 17px;
-    margin: 15px 0 40px;
+.block-title{
+    width: 49%;
 }
-
-.avocado-title button {
-    border: 1px solid #ccc;
-    background-color: transparent;
-    color: #626364;
-    display: inline-block;
-    font-size: 1rem;
-    padding: 10px 30px;
-    cursor: pointer;
-    transition: 0.3s;
-    align-self: flex-end;
+.block-title p{
+    color: #828282;
+    margin-top: 15px;
 }
-
-.avocado-title button:hover {
-    color: white;
-    background-color: #98999A;
-}
-
-footer {
-    margin-top: 50px;
-}
-
-footer p {
-    color: #626364;
-    line-height: 1.8;
-    text-align: center;
-    margin-bottom: 40px;
-}
-
-.footer-end {
-    padding: 120px 0 20px;
-    background-color: #ccc;
-    text-align: center;
+.online .mainsection{
+    flex-direction: row-reverse;
 }
